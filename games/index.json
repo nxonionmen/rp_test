@@ -1,0 +1,54 @@
+{
+ "games": [
+  {
+   "about": "GitHub Pages 시험용으로 만든 가짜 그림 2장과 3D 도형 3개입니다. 실제 게임 에셋이 아닙니다.",
+   "base": "games/sample/2d/",
+   "format": "boomhill",
+   "groups": [
+    {
+     "count": 2,
+     "frames": 5,
+     "id": "010_sprites",
+     "title": "스프라이트"
+    }
+   ],
+   "id": "sample",
+   "models": {
+    "base": "games/sample/3d/",
+    "categories": [
+     {
+      "count": 3,
+      "dir": "010_shapes",
+      "id": "3d_shapes",
+      "title": "도형"
+     }
+    ],
+    "originals": {
+     "base": "https://github.com/nxonionmen/rp_test/releases/download/test-v1/",
+     "files": {
+      "3d_shapes": [
+       {
+        "bytes": 9812,
+        "count": 3,
+        "name": "sample-3d-shapes.zip"
+       }
+      ]
+     }
+    },
+    "totals": {
+     "bytes": 20040,
+     "models": 3
+    }
+   },
+   "title": "시험용 합성 데이터",
+   "title_en": "Synthetic test data",
+   "totals": {
+    "assets": 2,
+    "bytes": 3163,
+    "frames": 5
+   }
+  }
+ ],
+ "schema": "boomhill-open-assets/site/v1",
+ "title": "Boomhill Open Assets"
+}

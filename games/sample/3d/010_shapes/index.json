@@ -1,0 +1,35 @@
+{
+ "category": "3d_shapes",
+ "game": "sample",
+ "items": [
+  {
+   "bytes": 7644,
+   "file": "010_shapes/bouncing_ball.glb",
+   "id": "bouncing_ball",
+   "name": "bouncing_ball",
+   "stats": {
+    "animations": 1
+   },
+   "thumb": "010_shapes/bouncing_ball.webp"
+  },
+  {
+   "bytes": 1392,
+   "file": "010_shapes/checker_floor.glb",
+   "id": "checker_floor",
+   "name": "checker_floor",
+   "thumb": "010_shapes/checker_floor.webp"
+  },
+  {
+   "bytes": 4020,
+   "file": "010_shapes/spinning_cube.glb",
+   "id": "spinning_cube",
+   "name": "spinning_cube",
+   "stats": {
+    "animations": 1
+   },
+   "thumb": "010_shapes/spinning_cube.webp"
+  }
+ ],
+ "schema": "boomhill-open-assets/model-list/v1",
+ "title": "도형"
+}

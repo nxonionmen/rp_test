@@ -1,0 +1,59 @@
+{
+ "animations": [
+  {
+   "frame_ms": [
+    120,
+    120,
+    120,
+    120
+   ],
+   "frames": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "loop": true,
+   "name": "bounce"
+  }
+ ],
+ "frames": [
+  {
+   "h": 64,
+   "index": 0,
+   "w": 64,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "h": 64,
+   "index": 1,
+   "w": 64,
+   "x": 64,
+   "y": 0
+  },
+  {
+   "h": 64,
+   "index": 2,
+   "w": 64,
+   "x": 128,
+   "y": 0
+  },
+  {
+   "h": 64,
+   "index": 3,
+   "w": 64,
+   "x": 192,
+   "y": 0
+  }
+ ],
+ "game": "sample",
+ "group": "010_sprites",
+ "name": "bouncing_ball",
+ "schema": "boomhill-open-assets/atlas/v1",
+ "sheet": {
+  "file": "bouncing_ball.png",
+  "h": 64,
+  "w": 256
+ }
+}

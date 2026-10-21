@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boomhill Open Assets</title>
+<meta name="description" content="크레이지아케이드 · 버블파이터 · 버블파이터 어드벤처 · 에어라이더 공개 이미지 · 3D 모델 에셋 뷰어">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='%2358c4ff' stroke='%23fff' stroke-width='1.5'/%3E%3Ccircle cx='5.8' cy='5.6' r='1.6' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css">
+<link rel="stylesheet" href="viewer/app.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#/" aria-label="처음으로">
+    <span class="mark" aria-hidden="true"></span>
+    <span class="brand-text"><b>Boomhill</b> Open Assets</span>
+  </a>
+  <nav id="tabs" class="tabs" aria-label="게임"></nav>
+  <nav class="links" aria-label="안내">
+    <a href="guide.html">활용 방안</a>
+    <a href="demo.html">활용 예시</a>
+    <a href="LICENSE">약관</a>
+  </nav>
+</header>
+
+<main id="home" class="home" hidden>
+  <section class="hero">
+    <p class="kicker">NEXON · 붐힐 월드 이미지 · 3D 에셋 공개 묶음</p>
+    <h1>네 게임의 그림과 모델을<br>한곳에서 보고 받아 가세요</h1>
+    <p class="lede">크레이지아케이드 · 버블파이터 · 버블파이터 어드벤처 · 에어라이더의 2D 이미지를 스프라이트 시트와 아틀라스 JSON 으로,
+      3D 모델을 GLB 로 정리했습니다. 모든 파일은 일반 Git 객체로 들어 있어 주소 하나로 그대로 내려받을 수 있습니다.</p>
+    <p id="homeTotals" class="totals"></p>
+  </section>
+  <section id="gameCards" class="cards" aria-label="게임 목록"></section>
+  <section class="notice-box">
+    <h2>사용 전에</h2>
+    <p>사용 범위와 조건은 <a href="LICENSE">LICENSE</a>(약관)와 <a href="NOTICE">NOTICE</a> 를 따릅니다. 어떻게 쓸 수 있는지는 <a href="guide.html">활용 방안</a>에, 아틀라스 JSON 을 코드로 읽는 예는 <a href="demo.html">활용 예시</a>에 있습니다.</p>
+  </section>
+</main>
+
+<div id="browser" class="browser" hidden>
+  <aside class="side" aria-label="묶음">
+    <div class="game-head">
+      <h2 id="gameTitle"></h2>
+      <p id="gameAbout" class="about"></p>
+    </div>
+    <nav id="groups" class="groups"></nav>
+  </aside>
+  <section class="list" aria-label="자산 목록">
+    <div class="tools">
+      <input id="search" type="search" placeholder="이름으로 찾기 — 띄어 쓰면 모두 포함 (예: shop icon)" autocomplete="off">
+      <span id="count" class="count"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+  </section>
+  <aside id="detail" class="detail" aria-label="자산 상세">
+    <p class="hint">왼쪽 목록에서 그림을 고르면 프레임 · 애니메이션 · 내려받기가 여기에 나옵니다.<br>키보드: <kbd>←</kbd> <kbd>→</kbd> 옆 그림, <kbd>Esc</kbd> 닫기.</p>
+  </aside>
+</div>
+
+
+<footer class="foot">
+  <span>사용 조건은 <a href="LICENSE">LICENSE</a> 와 <a href="NOTICE">NOTICE</a> 를 따릅니다.</span>
+  <span>뷰어 코드: 이 저장소의 <code>viewer/</code></span>
+</footer>
+<script type="importmap">{"imports": {"three": "./viewer/vendor/three/three.module.js", "three/addons/": "./viewer/vendor/three/addons/"}}</script>
+<script src="viewer/app.js"></script>
+</body>
+</html>

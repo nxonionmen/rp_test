@@ -1,0 +1,15 @@
+{
+ "categories": [
+  {
+   "count": 3,
+   "dir": "010_shapes",
+   "id": "3d_shapes",
+   "list": "010_shapes/index.json",
+   "title": "도형"
+  }
+ ],
+ "game": "sample",
+ "plugin": null,
+ "render": {},
+ "schema": "boomhill-open-assets/models/v1"
+}

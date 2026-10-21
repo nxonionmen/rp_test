@@ -1,0 +1,33 @@
+{
+ "assets": [
+  {
+   "atlas": true,
+   "first": {
+    "h": 64,
+    "w": 64,
+    "x": 0,
+    "y": 0
+   },
+   "frames": 4,
+   "id": "bouncing_ball",
+   "name": "bouncing_ball",
+   "sheet": {
+    "h": 64,
+    "w": 256
+   }
+  },
+  {
+   "frames": 1,
+   "id": "pages_test_banner",
+   "name": "pages_test_banner",
+   "sheet": {
+    "h": 80,
+    "w": 240
+   }
+  }
+ ],
+ "game": "sample",
+ "group": "010_sprites",
+ "schema": "boomhill-open-assets/index/v1",
+ "title": "스프라이트"
+}
